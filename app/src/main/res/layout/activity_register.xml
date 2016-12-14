@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Register"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="User name"
+            android:id="@+id/edtUserRegister"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="50dp">
+            <requestFocus/>
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Pass word"
+            android:id="@+id/edtPassRegister"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="50dp">
+            <requestFocus/>
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/btnSave"
+        android:layout_marginTop="30dp"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
